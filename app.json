@@ -7,14 +7,17 @@
   ],
   "sitemapLocation": "sitemap.json",
   "window": {
-    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarBackgroundColor": "#515187",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "购物街",
     "backgroundColor": "#bfa",
     "backgroundTextStyle": "dark",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "tabBar": {
+    "selectedColor": "#000",
+    "backgroundColor": "#F8F8FF",
+    "borderStyle": "white",
     "list": [{
       "pagePath": "pages/home/home",
       "text": "首页",
