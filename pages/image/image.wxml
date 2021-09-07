@@ -1,0 +1,21 @@
+<!--pages/image/image.wxml-->
+<!-- 1. image的基本使用 -->
+<!-- image组件可以写成单标签或者双标签 -->
+<!-- image组件默认有大小 320px * 240px -->
+<!-- image组件默认行内块元素 -->
+
+<!-- <image src="../../assets/heart_1.png"/> -->
+
+<!-- 2. 本地地址(相对和绝对) / 远程地址 -->
+<!-- <image src="../../assets/heart_1.png"></image> -->
+<image src="/assets/heart_1.png"></image>
+<image src="https://hellorfimg.zcool.cn/preview260/1799276221.jpg"></image>
+<!-- 补充 相册中的图片 -->
+<button bindtap="handleChooseAlbum"> 选中图片</button>
+<image src="{{imagePath}}"></image>
+
+<!-- 3. bindload -->
+<!-- lazy-load 图片懒加载 当进入第三个屏幕才会加载 -->
+<image wx:for="{{1}}" src="https://hellorfimg.zcool.cn/preview260/1799276221.jpg" bindload="handleImageLoad" lazy-load="{{true}}"/>
+<!-- 4. show-menu-by-longpress -->
+<image show-menu-by-longpress src="/assets/zouye.png"></image>

@@ -9,4 +9,7 @@
 <open-data type="userAvatarUrl"></open-data>
 
 <view bindtap="handleViewClick">{{name}}</view>
-<view wx:for="{{list}}">{{item.title}}</view>
+<!-- <view wx:for="{{list}}">{{item.title}}</view> -->
+
+<!-- 1. hidden属性 -->
+<view hidden>哈哈哈</view>

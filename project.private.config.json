@@ -29,6 +29,42 @@
           "pathName": "pages/home/home",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/text/text",
+          "pathName": "pages/text/text",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/button/button",
+          "pathName": "pages/button/button",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/view/view",
+          "pathName": "pages/view/view",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/image/image",
+          "pathName": "pages/image/image",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/input/input",
+          "pathName": "pages/input/input",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/scrollView/scrollView",
+          "pathName": "pages/scrollView/scrollView",
+          "query": "",
+          "scene": null
         }
       ]
     }

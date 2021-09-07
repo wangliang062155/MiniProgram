@@ -1,0 +1,13 @@
+<!--pages/view/view.wxml-->
+<!-- 1. view的基本使用 -->
+<view class="box">哈哈哈</view>
+<!-- 块级作用域 -->
+<view>呵呵呵</view>
+<!-- 2. hover-class：当用户按下组件时，显示的样式 -->
+<view hover-class="box1-hover" class="box1" hover-stay-time="{{1000}}">box1</view>
+
+<!-- 3. hover-stop-propagation 阻止冒泡(阻止祖先的hover事件) -->
+<view class="box2" hover-class="box2-hover"> 
+  <view hover-class="box1-hover" class="box1" hover-stop-propagation >box2</view>
+</view>
+
